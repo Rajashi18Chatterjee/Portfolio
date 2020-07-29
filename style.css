@@ -4,7 +4,7 @@ body {
 }
 
 h1 {
-  color: navy;
+  color: rgb(4, 4, 26);
   margin-left: 10px;
 }
 
@@ -19,6 +19,7 @@ h6
 }
 h5{
   color: navy;
+  
 }
 p {
   margin-top: 10px;
@@ -68,7 +69,7 @@ p {
  
 #skill {
  
-  background-color: hsl(236, 63%, 51%);
+  
   margin: 10px;
 }
   #abc{
@@ -82,7 +83,12 @@ p {
 
 #certificate {
  
-  background-color: hsl(236, 63%, 51%);
+  
   margin: 10px;
   
+}
+.contact-info{
+  background-color: honeydew;
+ 
+  border-bottom: lightblue solid 19px;
 }
