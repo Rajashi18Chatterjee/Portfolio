@@ -8,14 +8,16 @@ h1 {
   margin-left: 10px;
 }
 h3{
-  color: aqua;
+  color: #15b089;
+   text-shadow: 2px 2px #ff0000;
 }
-h2,
 
-h4,
 
-h6
- {
+h4{
+  color: #070e70;
+}
+
+h2,h6 {
   color: rgb(60, 199, 67);
   margin: 20px;
 }
@@ -48,15 +50,20 @@ p {
   background-color: rgb(24, 61, 73);
 }
 
+.hello{
+  font-size: 70px;
+}
 
 #def{
-  width: 150px;
-  height: 120px;
-  
+ display: flex;
+ align-content: center;
+  height: 800px;
+  text-shadow: 2px 2px #ff0000;
+
   font-weight: italic;
   position: relative;
   
-  animation: mymove 5s infinite;
+  animation: mymove 10s infinite;
 }
 #def {animation-timing-function: ease;}
 @keyframes mymove {
@@ -81,6 +88,9 @@ p {
     margin-left: 10px;
   }
   
+#project{
+  margin: 10px;
+}
 
 
 #certificate {
